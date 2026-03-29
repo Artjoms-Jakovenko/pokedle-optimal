@@ -1,1663 +1,2452 @@
 [
   {
     "number": 1,
-    "name": "Bulbasaur",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "bulbasaur",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Grassland",
+    "color": [
+      "green"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 2,
-    "name": "Ivysaur",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "ivysaur",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Grassland",
+    "color": [
+      "green",
+      "pink"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 3,
-    "name": "Venusaur",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "venusaur",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Green",
-    "habitat": "Grassland",
+    "color": [
+      "green",
+      "pink"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 4,
-    "name": "Charmander",
-    "type1": "Fire",
+    "name": "charmander",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Mountain",
+    "color": [
+      "orange"
+    ],
+    "habitat": [
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 5,
-    "name": "Charmeleon",
-    "type1": "Fire",
+    "name": "charmeleon",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Mountain",
+    "color": [
+      "red"
+    ],
+    "habitat": [
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 6,
-    "name": "Charizard",
-    "type1": "Fire",
-    "type2": "Flying",
+    "name": "charizard",
+    "type1": "fire",
+    "type2": "flying",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Mountain",
+    "color": [
+      "orange"
+    ],
+    "habitat": [
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 7,
-    "name": "Squirtle",
-    "type1": "Water",
+    "name": "squirtle",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "brown"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 8,
-    "name": "Wartortle",
-    "type1": "Water",
+    "name": "wartortle",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "brown"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 9,
-    "name": "Blastoise",
-    "type1": "Water",
+    "name": "blastoise",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "brown"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 10,
-    "name": "Caterpie",
-    "type1": "Bug",
+    "name": "caterpie",
+    "type1": "bug",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Forest",
+    "color": [
+      "green",
+      "yellow"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 11,
-    "name": "Metapod",
-    "type1": "Bug",
+    "name": "metapod",
+    "type1": "bug",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Forest",
+    "color": [
+      "green"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 12,
-    "name": "Butterfree",
-    "type1": "Bug",
-    "type2": "Flying",
+    "name": "butterfree",
+    "type1": "bug",
+    "type2": "flying",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "White",
-    "habitat": "Forest",
+    "color": [
+      "white",
+      "purple"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 13,
-    "name": "Weedle",
-    "type1": "Bug",
-    "type2": "Poison",
+    "name": "weedle",
+    "type1": "bug",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Forest",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 14,
-    "name": "Kakuna",
-    "type1": "Bug",
-    "type2": "Poison",
+    "name": "kakuna",
+    "type1": "bug",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Forest",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 15,
-    "name": "Beedrill",
-    "type1": "Bug",
-    "type2": "Poison",
+    "name": "beedrill",
+    "type1": "bug",
+    "type2": "poison",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Forest",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 16,
-    "name": "Pidgey",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "pidgey",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Forest",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "forest",
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 17,
-    "name": "Pidgeotto",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "pidgeotto",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Forest",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "grassland",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 18,
-    "name": "Pidgeot",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "pidgeot",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Forest",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "grassland",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 19,
-    "name": "Rattata",
-    "type1": "Normal",
+    "name": "rattata",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Grassland",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 20,
-    "name": "Raticate",
-    "type1": "Normal",
+    "name": "raticate",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 21,
-    "name": "Spearow",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "spearow",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Rough-terrain",
+    "color": [
+      "brown",
+      "red"
+    ],
+    "habitat": [
+      "desertbadlands"
+    ],
     "generation": 1
   },
   {
     "number": 22,
-    "name": "Fearow",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "fearow",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Rough-terrain",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "desertbadlands"
+    ],
     "generation": 1
   },
   {
     "number": 23,
-    "name": "Ekans",
-    "type1": "Poison",
+    "name": "ekans",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Grassland",
+    "color": [
+      "purple",
+      "yellow"
+    ],
+    "habitat": [
+      "grassland",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 24,
-    "name": "Arbok",
-    "type1": "Poison",
+    "name": "arbok",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Grassland",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "grassland",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 25,
-    "name": "Pikachu",
-    "type1": "Electric",
+    "name": "pikachu",
+    "type1": "electric",
     "type2": "None",
-    "evolution_stage": 2,
+    "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Forest",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "forest",
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 26,
-    "name": "Raichu",
-    "type1": "Electric",
+    "name": "raichu",
+    "type1": "electric",
     "type2": "None",
-    "evolution_stage": 3,
+    "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Forest",
+    "color": [
+      "orange",
+      "yellow"
+    ],
+    "habitat": [
+      "forest",
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 27,
-    "name": "Sandshrew",
-    "type1": "Ground",
+    "name": "sandshrew",
+    "type1": "ground",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Rough-terrain",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "cave",
+      "desertbadlands",
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 28,
-    "name": "Sandslash",
-    "type1": "Ground",
+    "name": "sandslash",
+    "type1": "ground",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Rough-terrain",
+    "color": [
+      "yellow",
+      "brown"
+    ],
+    "habitat": [
+      "cave",
+      "desertbadlands"
+    ],
     "generation": 1
   },
   {
     "number": 29,
-    "name": "Nidoran-f",
-    "type1": "Poison",
+    "name": "nidoran\u2640",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Grassland",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 30,
-    "name": "Nidorina",
-    "type1": "Poison",
+    "name": "nidorina",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Grassland",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 31,
-    "name": "Nidoqueen",
-    "type1": "Poison",
-    "type2": "Ground",
+    "name": "nidoqueen",
+    "type1": "poison",
+    "type2": "ground",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Grassland",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 32,
-    "name": "Nidoran-m",
-    "type1": "Poison",
+    "name": "nidoran\u2642",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Grassland",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 33,
-    "name": "Nidorino",
-    "type1": "Poison",
+    "name": "nidorino",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Grassland",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 34,
-    "name": "Nidoking",
-    "type1": "Poison",
-    "type2": "Ground",
+    "name": "nidoking",
+    "type1": "poison",
+    "type2": "ground",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Grassland",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 35,
-    "name": "Clefairy",
-    "type1": "Fairy",
+    "name": "clefairy",
+    "type1": "normal",
     "type2": "None",
-    "evolution_stage": 2,
+    "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Mountain",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 36,
-    "name": "Clefable",
-    "type1": "Fairy",
+    "name": "clefable",
+    "type1": "normal",
     "type2": "None",
-    "evolution_stage": 3,
+    "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Pink",
-    "habitat": "Mountain",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 37,
-    "name": "Vulpix",
-    "type1": "Fire",
+    "name": "vulpix",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "orange"
+    ],
+    "habitat": [
+      "grassland",
+      "ruin",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 38,
-    "name": "Ninetales",
-    "type1": "Fire",
+    "name": "ninetales",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Grassland",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "grassland",
+      "ruin",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 39,
-    "name": "Jigglypuff",
-    "type1": "Normal",
-    "type2": "Fairy",
-    "evolution_stage": 2,
+    "name": "jigglypuff",
+    "type1": "normal",
+    "type2": "None",
+    "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Grassland",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "grassland",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 40,
-    "name": "Wigglytuff",
-    "type1": "Normal",
-    "type2": "Fairy",
-    "evolution_stage": 3,
+    "name": "wigglytuff",
+    "type1": "normal",
+    "type2": "None",
+    "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Pink",
-    "habitat": "Grassland",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "grassland",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 41,
-    "name": "Zubat",
-    "type1": "Poison",
-    "type2": "Flying",
+    "name": "zubat",
+    "type1": "poison",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Cave",
+    "color": [
+      "blue",
+      "purple"
+    ],
+    "habitat": [
+      "cave"
+    ],
     "generation": 1
   },
   {
     "number": 42,
-    "name": "Golbat",
-    "type1": "Poison",
-    "type2": "Flying",
+    "name": "golbat",
+    "type1": "poison",
+    "type2": "flying",
     "evolution_stage": 2,
-    "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Cave",
+    "is_fully_evolved": true,
+    "color": [
+      "blue",
+      "purple"
+    ],
+    "habitat": [
+      "cave"
+    ],
     "generation": 1
   },
   {
     "number": 43,
-    "name": "Oddish",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "oddish",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Grassland",
+    "color": [
+      "blue",
+      "green"
+    ],
+    "habitat": [
+      "grassland",
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 44,
-    "name": "Gloom",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "gloom",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Grassland",
+    "color": [
+      "blue",
+      "orange"
+    ],
+    "habitat": [
+      "grassland",
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 45,
-    "name": "Vileplume",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "vileplume",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Grassland",
+    "color": [
+      "red",
+      "blue"
+    ],
+    "habitat": [
+      "grassland",
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 46,
-    "name": "Paras",
-    "type1": "Bug",
-    "type2": "Grass",
+    "name": "paras",
+    "type1": "bug",
+    "type2": "grass",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Forest",
+    "color": [
+      "orange",
+      "red"
+    ],
+    "habitat": [
+      "cave",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 47,
-    "name": "Parasect",
-    "type1": "Bug",
-    "type2": "Grass",
+    "name": "parasect",
+    "type1": "bug",
+    "type2": "grass",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Forest",
+    "color": [
+      "red",
+      "orange"
+    ],
+    "habitat": [
+      "cave",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 48,
-    "name": "Venonat",
-    "type1": "Bug",
-    "type2": "Poison",
+    "name": "venonat",
+    "type1": "bug",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Forest",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 49,
-    "name": "Venomoth",
-    "type1": "Bug",
-    "type2": "Poison",
+    "name": "venomoth",
+    "type1": "bug",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Forest",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 50,
-    "name": "Diglett",
-    "type1": "Ground",
+    "name": "diglett",
+    "type1": "ground",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Cave",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "cave",
+      "desertbadlands"
+    ],
     "generation": 1
   },
   {
     "number": 51,
-    "name": "Dugtrio",
-    "type1": "Ground",
+    "name": "dugtrio",
+    "type1": "ground",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Cave",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "cave",
+      "desertbadlands"
+    ],
     "generation": 1
   },
   {
     "number": 52,
-    "name": "Meowth",
-    "type1": "Normal",
+    "name": "meowth",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Urban",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "city",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 53,
-    "name": "Persian",
-    "type1": "Normal",
+    "name": "persian",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Urban",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "city",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 54,
-    "name": "Psyduck",
-    "type1": "Water",
+    "name": "psyduck",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Waters-edge",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 55,
-    "name": "Golduck",
-    "type1": "Water",
+    "name": "golduck",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 56,
-    "name": "Mankey",
-    "type1": "Fighting",
+    "name": "mankey",
+    "type1": "fighting",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "forest",
+      "jungle",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 57,
-    "name": "Primeape",
-    "type1": "Fighting",
+    "name": "primeape",
+    "type1": "fighting",
     "type2": "None",
     "evolution_stage": 2,
-    "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "is_fully_evolved": true,
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "forest",
+      "jungle",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 58,
-    "name": "Growlithe",
-    "type1": "Fire",
+    "name": "growlithe",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "orange",
+      "yellow"
+    ],
+    "habitat": [
+      "grassland",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 59,
-    "name": "Arcanine",
-    "type1": "Fire",
+    "name": "arcanine",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "orange",
+      "brown"
+    ],
+    "habitat": [
+      "grassland",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 60,
-    "name": "Poliwag",
-    "type1": "Water",
+    "name": "poliwag",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "habitat": [
+      "freshwater",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 61,
-    "name": "Poliwhirl",
-    "type1": "Water",
+    "name": "poliwhirl",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "habitat": [
+      "freshwater",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 62,
-    "name": "Poliwrath",
-    "type1": "Water",
-    "type2": "Fighting",
+    "name": "poliwrath",
+    "type1": "water",
+    "type2": "fighting",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "habitat": [
+      "freshwater",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 63,
-    "name": "Abra",
-    "type1": "Psychic",
+    "name": "abra",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Urban",
+    "color": [
+      "yellow",
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "ruin"
+    ],
     "generation": 1
   },
   {
     "number": 64,
-    "name": "Kadabra",
-    "type1": "Psychic",
+    "name": "kadabra",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Urban",
+    "color": [
+      "yellow",
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "ruin"
+    ],
     "generation": 1
   },
   {
     "number": 65,
-    "name": "Alakazam",
-    "type1": "Psychic",
+    "name": "alakazam",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Urban",
+    "color": [
+      "yellow",
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "ruin"
+    ],
     "generation": 1
   },
   {
     "number": 66,
-    "name": "Machop",
-    "type1": "Fighting",
+    "name": "machop",
+    "type1": "fighting",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Mountain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "cave",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 67,
-    "name": "Machoke",
-    "type1": "Fighting",
+    "name": "machoke",
+    "type1": "fighting",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Mountain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "cave",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 68,
-    "name": "Machamp",
-    "type1": "Fighting",
+    "name": "machamp",
+    "type1": "fighting",
     "type2": "None",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Gray",
-    "habitat": "Mountain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "cave",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 69,
-    "name": "Bellsprout",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "bellsprout",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Forest",
+    "color": [
+      "green",
+      "yellow"
+    ],
+    "habitat": [
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 70,
-    "name": "Weepinbell",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "weepinbell",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Forest",
+    "color": [
+      "green",
+      "yellow"
+    ],
+    "habitat": [
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 71,
-    "name": "Victreebel",
-    "type1": "Grass",
-    "type2": "Poison",
+    "name": "victreebel",
+    "type1": "grass",
+    "type2": "poison",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Green",
-    "habitat": "Forest",
+    "color": [
+      "green",
+      "yellow"
+    ],
+    "habitat": [
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 72,
-    "name": "Tentacool",
-    "type1": "Water",
-    "type2": "Poison",
+    "name": "tentacool",
+    "type1": "water",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue",
+      "red"
+    ],
+    "habitat": [
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 73,
-    "name": "Tentacruel",
-    "type1": "Water",
-    "type2": "Poison",
+    "name": "tentacruel",
+    "type1": "water",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue",
+      "red"
+    ],
+    "habitat": [
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 74,
-    "name": "Geodude",
-    "type1": "Rock",
-    "type2": "Ground",
+    "name": "geodude",
+    "type1": "rock",
+    "type2": "ground",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "cave",
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 75,
-    "name": "Graveler",
-    "type1": "Rock",
-    "type2": "Ground",
+    "name": "graveler",
+    "type1": "rock",
+    "type2": "ground",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "cave",
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 76,
-    "name": "Golem",
-    "type1": "Rock",
-    "type2": "Ground",
+    "name": "golem",
+    "type1": "rock",
+    "type2": "ground",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "color": [
+      "gray",
+      "brown"
+    ],
+    "habitat": [
+      "cave",
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 77,
-    "name": "Ponyta",
-    "type1": "Fire",
+    "name": "ponyta",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Grassland",
+    "color": [
+      "yellow",
+      "orange"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 78,
-    "name": "Rapidash",
-    "type1": "Fire",
+    "name": "rapidash",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Grassland",
+    "color": [
+      "yellow",
+      "orange"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 79,
-    "name": "Slowpoke",
-    "type1": "Water",
-    "type2": "Psychic",
+    "name": "slowpoke",
+    "type1": "water",
+    "type2": "psychic",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Waters-edge",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "beach",
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 80,
-    "name": "Slowbro",
-    "type1": "Water",
-    "type2": "Psychic",
+    "name": "slowbro",
+    "type1": "water",
+    "type2": "psychic",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Pink",
-    "habitat": "Waters-edge",
+    "color": [
+      "pink",
+      "gray"
+    ],
+    "habitat": [
+      "beach",
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 81,
-    "name": "Magnemite",
-    "type1": "Electric",
-    "type2": "Steel",
+    "name": "magnemite",
+    "type1": "electric",
+    "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Rough-terrain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 82,
-    "name": "Magneton",
-    "type1": "Electric",
-    "type2": "Steel",
+    "name": "magneton",
+    "type1": "electric",
+    "type2": "None",
     "evolution_stage": 2,
-    "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Rough-terrain",
+    "is_fully_evolved": true,
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 83,
-    "name": "Farfetchd",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "farfetch\u2019d",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 1,
-    "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "is_fully_evolved": true,
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "forest",
+      "grassland",
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 84,
-    "name": "Doduo",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "doduo",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 85,
-    "name": "Dodrio",
-    "type1": "Normal",
-    "type2": "Flying",
+    "name": "dodrio",
+    "type1": "normal",
+    "type2": "flying",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 86,
-    "name": "Seel",
-    "type1": "Water",
+    "name": "seel",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "White",
-    "habitat": "Sea",
+    "color": [
+      "white"
+    ],
+    "habitat": [
+      "polarsea"
+    ],
     "generation": 1
   },
   {
     "number": 87,
-    "name": "Dewgong",
-    "type1": "Water",
-    "type2": "Ice",
+    "name": "dewgong",
+    "type1": "water",
+    "type2": "ice",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "White",
-    "habitat": "Sea",
+    "color": [
+      "white"
+    ],
+    "habitat": [
+      "polarsea"
+    ],
     "generation": 1
   },
   {
     "number": 88,
-    "name": "Grimer",
-    "type1": "Poison",
+    "name": "grimer",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Urban",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city"
+    ],
     "generation": 1
   },
   {
     "number": 89,
-    "name": "Muk",
-    "type1": "Poison",
+    "name": "muk",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Urban",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city"
+    ],
     "generation": 1
   },
   {
     "number": 90,
-    "name": "Shellder",
-    "type1": "Water",
+    "name": "shellder",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Sea",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 91,
-    "name": "Cloyster",
-    "type1": "Water",
-    "type2": "Ice",
+    "name": "cloyster",
+    "type1": "water",
+    "type2": "ice",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Sea",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 92,
-    "name": "Gastly",
-    "type1": "Ghost",
-    "type2": "Poison",
+    "name": "gastly",
+    "type1": "ghost",
+    "type2": "poison",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Cave",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "forest",
+      "ruin"
+    ],
     "generation": 1
   },
   {
     "number": 93,
-    "name": "Haunter",
-    "type1": "Ghost",
-    "type2": "Poison",
+    "name": "haunter",
+    "type1": "ghost",
+    "type2": "poison",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Cave",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "forest",
+      "ruin"
+    ],
     "generation": 1
   },
   {
     "number": 94,
-    "name": "Gengar",
-    "type1": "Ghost",
-    "type2": "Poison",
+    "name": "gengar",
+    "type1": "ghost",
+    "type2": "poison",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Cave",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "forest",
+      "ruin"
+    ],
     "generation": 1
   },
   {
     "number": 95,
-    "name": "Onix",
-    "type1": "Rock",
-    "type2": "Ground",
+    "name": "onix",
+    "type1": "rock",
+    "type2": "ground",
     "evolution_stage": 1,
-    "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Cave",
+    "is_fully_evolved": true,
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "cave",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 96,
-    "name": "Drowzee",
-    "type1": "Psychic",
+    "name": "drowzee",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Grassland",
+    "color": [
+      "yellow",
+      "brown"
+    ],
+    "habitat": [
+      "forest",
+      "grassland",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 97,
-    "name": "Hypno",
-    "type1": "Psychic",
+    "name": "hypno",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Grassland",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "forest",
+      "grassland",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 98,
-    "name": "Krabby",
-    "type1": "Water",
+    "name": "krabby",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Waters-edge",
+    "color": [
+      "orange",
+      "brown"
+    ],
+    "habitat": [
+      "beach"
+    ],
     "generation": 1
   },
   {
     "number": 99,
-    "name": "Kingler",
-    "type1": "Water",
+    "name": "kingler",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Waters-edge",
+    "color": [
+      "orange",
+      "brown"
+    ],
+    "habitat": [
+      "beach"
+    ],
     "generation": 1
   },
   {
     "number": 100,
-    "name": "Voltorb",
-    "type1": "Electric",
+    "name": "voltorb",
+    "type1": "electric",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Urban",
+    "color": [
+      "red",
+      "white"
+    ],
+    "habitat": [
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 101,
-    "name": "Electrode",
-    "type1": "Electric",
+    "name": "electrode",
+    "type1": "electric",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Urban",
+    "color": [
+      "white",
+      "red"
+    ],
+    "habitat": [
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 102,
-    "name": "Exeggcute",
-    "type1": "Grass",
-    "type2": "Psychic",
+    "name": "exeggcute",
+    "type1": "grass",
+    "type2": "psychic",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Forest",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 103,
-    "name": "Exeggutor",
-    "type1": "Grass",
-    "type2": "Psychic",
+    "name": "exeggutor",
+    "type1": "grass",
+    "type2": "psychic",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Forest",
+    "color": [
+      "brown",
+      "green"
+    ],
+    "habitat": [
+      "beach",
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 104,
-    "name": "Cubone",
-    "type1": "Ground",
+    "name": "cubone",
+    "type1": "ground",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "desertbadlands",
+      "cave",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 105,
-    "name": "Marowak",
-    "type1": "Ground",
+    "name": "marowak",
+    "type1": "ground",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Mountain",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "desertbadlands",
+      "cave",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 106,
-    "name": "Hitmonlee",
-    "type1": "Fighting",
+    "name": "hitmonlee",
+    "type1": "fighting",
     "type2": "None",
-    "evolution_stage": 2,
+    "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Urban",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 107,
-    "name": "Hitmonchan",
-    "type1": "Fighting",
+    "name": "hitmonchan",
+    "type1": "fighting",
     "type2": "None",
-    "evolution_stage": 2,
+    "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Urban",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 108,
-    "name": "Lickitung",
-    "type1": "Normal",
+    "name": "lickitung",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
-    "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Grassland",
+    "is_fully_evolved": true,
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 109,
-    "name": "Koffing",
-    "type1": "Poison",
+    "name": "koffing",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Purple",
-    "habitat": "Urban",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 110,
-    "name": "Weezing",
-    "type1": "Poison",
+    "name": "weezing",
+    "type1": "poison",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Urban",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 111,
-    "name": "Rhyhorn",
-    "type1": "Ground",
-    "type2": "Rock",
+    "name": "rhyhorn",
+    "type1": "ground",
+    "type2": "rock",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Rough-terrain",
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "desertbadlands",
+      "grassland",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 112,
-    "name": "Rhydon",
-    "type1": "Ground",
-    "type2": "Rock",
+    "name": "rhydon",
+    "type1": "ground",
+    "type2": "rock",
     "evolution_stage": 2,
-    "is_fully_evolved": false,
-    "color": "Gray",
-    "habitat": "Rough-terrain",
+    "is_fully_evolved": true,
+    "color": [
+      "gray"
+    ],
+    "habitat": [
+      "desertbadlands",
+      "grassland",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 113,
-    "name": "Chansey",
-    "type1": "Normal",
+    "name": "chansey",
+    "type1": "normal",
     "type2": "None",
-    "evolution_stage": 2,
-    "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Urban",
+    "evolution_stage": 1,
+    "is_fully_evolved": true,
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "city",
+      "grassland",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 114,
-    "name": "Tangela",
-    "type1": "Grass",
+    "name": "tangela",
+    "type1": "grass",
     "type2": "None",
     "evolution_stage": 1,
-    "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Grassland",
+    "is_fully_evolved": true,
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "grassland",
+      "jungle",
+      "swamp"
+    ],
     "generation": 1
   },
   {
     "number": 115,
-    "name": "Kangaskhan",
-    "type1": "Normal",
+    "name": "kangaskhan",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "desertbadlands",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 116,
-    "name": "Horsea",
-    "type1": "Water",
+    "name": "horsea",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "ocean",
+      "tropicalSea"
+    ],
     "generation": 1
   },
   {
     "number": 117,
-    "name": "Seadra",
-    "type1": "Water",
+    "name": "seadra",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "ocean",
+      "tropicalSea"
+    ],
     "generation": 1
   },
   {
     "number": 118,
-    "name": "Goldeen",
-    "type1": "Water",
+    "name": "goldeen",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Waters-edge",
+    "color": [
+      "white",
+      "orange"
+    ],
+    "habitat": [
+      "freshwater",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 119,
-    "name": "Seaking",
-    "type1": "Water",
+    "name": "seaking",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Waters-edge",
+    "color": [
+      "red",
+      "white"
+    ],
+    "habitat": [
+      "freshwater",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 120,
-    "name": "Staryu",
-    "type1": "Water",
+    "name": "staryu",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Sea",
+    "color": [
+      "brown",
+      "yellow"
+    ],
+    "habitat": [
+      "ocean",
+      "tropicalSea"
+    ],
     "generation": 1
   },
   {
     "number": 121,
-    "name": "Starmie",
-    "type1": "Water",
-    "type2": "Psychic",
+    "name": "starmie",
+    "type1": "water",
+    "type2": "psychic",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Sea",
+    "color": [
+      "purple",
+      "red"
+    ],
+    "habitat": [
+      "ocean",
+      "tropicalSea"
+    ],
     "generation": 1
   },
   {
     "number": 122,
-    "name": "Mr-mime",
-    "type1": "Psychic",
-    "type2": "Fairy",
+    "name": "mr. mime",
+    "type1": "psychic",
+    "type2": "fairy",
     "evolution_stage": 2,
-    "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Urban",
+    "is_fully_evolved": true,
+    "color": [
+      "pink",
+      "white"
+    ],
+    "habitat": [
+      "city"
+    ],
     "generation": 1
   },
   {
     "number": 123,
-    "name": "Scyther",
-    "type1": "Bug",
-    "type2": "Flying",
+    "name": "scyther",
+    "type1": "bug",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Green",
-    "habitat": "Grassland",
+    "color": [
+      "green"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   },
   {
     "number": 124,
-    "name": "Jynx",
-    "type1": "Ice",
-    "type2": "Psychic",
+    "name": "jynx",
+    "type1": "ice",
+    "type2": "psychic",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Urban",
+    "color": [
+      "purple",
+      "red"
+    ],
+    "habitat": [
+      "ice"
+    ],
     "generation": 1
   },
   {
     "number": 125,
-    "name": "Electabuzz",
-    "type1": "Electric",
+    "name": "electabuzz",
+    "type1": "electric",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Yellow",
-    "habitat": "Grassland",
+    "color": [
+      "yellow",
+      "black"
+    ],
+    "habitat": [
+      "grassland",
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 126,
-    "name": "Magmar",
-    "type1": "Fire",
+    "name": "magmar",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Mountain",
+    "color": [
+      "red",
+      "yellow"
+    ],
+    "habitat": [
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 127,
-    "name": "Pinsir",
-    "type1": "Bug",
+    "name": "pinsir",
+    "type1": "bug",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Forest",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "desertbadlands",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 128,
-    "name": "Tauros",
-    "type1": "Normal",
+    "name": "tauros",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Grassland",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 129,
-    "name": "Magikarp",
-    "type1": "Water",
+    "name": "magikarp",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Red",
-    "habitat": "Waters-edge",
+    "color": [
+      "orange"
+    ],
+    "habitat": [
+      "freshwater",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 130,
-    "name": "Gyarados",
-    "type1": "Water",
-    "type2": "Flying",
+    "name": "gyarados",
+    "type1": "water",
+    "type2": "flying",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "freshwater",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 131,
-    "name": "Lapras",
-    "type1": "Water",
-    "type2": "Ice",
+    "name": "lapras",
+    "type1": "water",
+    "type2": "ice",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 132,
-    "name": "Ditto",
-    "type1": "Normal",
+    "name": "ditto",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Urban",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "city",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 133,
-    "name": "Eevee",
-    "type1": "Normal",
+    "name": "eevee",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Urban",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "city",
+      "forest"
+    ],
     "generation": 1
   },
   {
     "number": 134,
-    "name": "Vaporeon",
-    "type1": "Water",
+    "name": "vaporeon",
+    "type1": "water",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Urban",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 135,
-    "name": "Jolteon",
-    "type1": "Electric",
+    "name": "jolteon",
+    "type1": "electric",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Urban",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 136,
-    "name": "Flareon",
-    "type1": "Fire",
+    "name": "flareon",
+    "type1": "fire",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Red",
-    "habitat": "Urban",
+    "color": [
+      "orange",
+      "yellow"
+    ],
+    "habitat": [
+      "grassland"
+    ],
     "generation": 1
   },
   {
     "number": 137,
-    "name": "Porygon",
-    "type1": "Normal",
+    "name": "porygon",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Pink",
-    "habitat": "Urban",
+    "color": [
+      "pink",
+      "blue"
+    ],
+    "habitat": [
+      "city"
+    ],
     "generation": 1
   },
   {
     "number": 138,
-    "name": "Omanyte",
-    "type1": "Rock",
-    "type2": "Water",
+    "name": "omanyte",
+    "type1": "rock",
+    "type2": "water",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue",
+      "brown"
+    ],
+    "habitat": [
+      "ocean",
+      "tropicalSea"
+    ],
     "generation": 1
   },
   {
     "number": 139,
-    "name": "Omastar",
-    "type1": "Rock",
-    "type2": "Water",
+    "name": "omastar",
+    "type1": "rock",
+    "type2": "water",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Sea",
+    "color": [
+      "blue",
+      "brown"
+    ],
+    "habitat": [
+      "ocean",
+      "tropicalSea"
+    ],
     "generation": 1
   },
   {
     "number": 140,
-    "name": "Kabuto",
-    "type1": "Rock",
-    "type2": "Water",
+    "name": "kabuto",
+    "type1": "rock",
+    "type2": "water",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Brown",
-    "habitat": "Sea",
+    "color": [
+      "brown",
+      "black"
+    ],
+    "habitat": [
+      "beach",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 141,
-    "name": "Kabutops",
-    "type1": "Rock",
-    "type2": "Water",
+    "name": "kabutops",
+    "type1": "rock",
+    "type2": "water",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Sea",
+    "color": [
+      "brown"
+    ],
+    "habitat": [
+      "beach",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 142,
-    "name": "Aerodactyl",
-    "type1": "Rock",
-    "type2": "Flying",
+    "name": "aerodactyl",
+    "type1": "rock",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Mountain",
+    "color": [
+      "gray",
+      "purple"
+    ],
+    "habitat": [
+      "forest",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 143,
-    "name": "Snorlax",
-    "type1": "Normal",
+    "name": "snorlax",
+    "type1": "normal",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": true,
-    "color": "Black",
-    "habitat": "Mountain",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "habitat": [
+      "forest",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 144,
-    "name": "Articuno",
-    "type1": "Ice",
-    "type2": "Flying",
+    "name": "articuno",
+    "type1": "ice",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Blue",
-    "habitat": "Rare",
+    "color": [
+      "blue"
+    ],
+    "habitat": [
+      "ice",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 145,
-    "name": "Zapdos",
-    "type1": "Electric",
-    "type2": "Flying",
+    "name": "zapdos",
+    "type1": "electric",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Rare",
+    "color": [
+      "yellow"
+    ],
+    "habitat": [
+      "industrial",
+      "mountain"
+    ],
     "generation": 1
   },
   {
     "number": 146,
-    "name": "Moltres",
-    "type1": "Fire",
-    "type2": "Flying",
+    "name": "moltres",
+    "type1": "fire",
+    "type2": "flying",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Yellow",
-    "habitat": "Rare",
+    "color": [
+      "orange",
+      "red"
+    ],
+    "habitat": [
+      "mountain",
+      "volcano"
+    ],
     "generation": 1
   },
   {
     "number": 147,
-    "name": "Dratini",
-    "type1": "Dragon",
+    "name": "dratini",
+    "type1": "dragon",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 148,
-    "name": "Dragonair",
-    "type1": "Dragon",
+    "name": "dragonair",
+    "type1": "dragon",
     "type2": "None",
     "evolution_stage": 2,
     "is_fully_evolved": false,
-    "color": "Blue",
-    "habitat": "Waters-edge",
+    "color": [
+      "blue",
+      "white"
+    ],
+    "habitat": [
+      "freshwater"
+    ],
     "generation": 1
   },
   {
     "number": 149,
-    "name": "Dragonite",
-    "type1": "Dragon",
-    "type2": "Flying",
+    "name": "dragonite",
+    "type1": "dragon",
+    "type2": "flying",
     "evolution_stage": 3,
     "is_fully_evolved": true,
-    "color": "Brown",
-    "habitat": "Waters-edge",
+    "color": [
+      "orange"
+    ],
+    "habitat": [
+      "freshwater",
+      "ocean"
+    ],
     "generation": 1
   },
   {
     "number": 150,
-    "name": "Mewtwo",
-    "type1": "Psychic",
+    "name": "mewtwo",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Purple",
-    "habitat": "Rare",
+    "color": [
+      "purple"
+    ],
+    "habitat": [
+      "cave",
+      "industrial"
+    ],
     "generation": 1
   },
   {
     "number": 151,
-    "name": "Mew",
-    "type1": "Psychic",
+    "name": "mew",
+    "type1": "psychic",
     "type2": "None",
     "evolution_stage": 1,
     "is_fully_evolved": true,
-    "color": "Pink",
-    "habitat": "Rare",
+    "color": [
+      "pink"
+    ],
+    "habitat": [
+      "forest",
+      "jungle"
+    ],
     "generation": 1
   }
 ]

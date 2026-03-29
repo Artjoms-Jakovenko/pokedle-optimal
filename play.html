@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pokedle Solver</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    background: #0f0f1a;
+    color: #e0e0e0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  h1 {
+    margin-top: 24px;
+    font-size: 28px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #e74c3c, #f39c12, #2ecc71, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .subtitle { color: #666; font-size: 13px; margin-top: 4px; }
+
+  .guess-section {
+    margin-top: 28px;
+    text-align: center;
+  }
+  .guess-label {
+    font-size: 13px; color: #888; text-transform: uppercase; letter-spacing: 2px;
+  }
+  .guess-pokemon {
+    display: flex; align-items: center; justify-content: center; gap: 12px;
+    margin-top: 8px;
+  }
+  .guess-pokemon img {
+    width: 80px; height: 80px; image-rendering: pixelated;
+    filter: drop-shadow(0 0 12px rgba(52, 152, 219, 0.4));
+  }
+  .guess-pokemon .name {
+    font-size: 32px; font-weight: 700;
+  }
+  .guess-pokemon .number {
+    font-size: 16px; color: #666;
+  }
+  .guess-attrs {
+    display: flex; gap: 8px; justify-content: center; margin-top: 10px; flex-wrap: wrap;
+  }
+  .guess-attrs .attr {
+    background: #1a1a2e; border: 1px solid #333; border-radius: 6px;
+    padding: 4px 10px; font-size: 12px; color: #aaa;
+  }
+  .guess-attrs .attr b { color: #ddd; }
+
+  .feedback-section {
+    margin-top: 24px;
+    display: flex; flex-direction: column; align-items: center;
+  }
+  .feedback-row {
+    display: flex; gap: 6px; margin-top: 12px; flex-wrap: wrap; justify-content: center;
+  }
+  .fb-col {
+    display: flex; flex-direction: column; align-items: center; gap: 4px; width: 80px;
+  }
+  .fb-col .label {
+    font-size: 10px; color: #888; text-transform: uppercase; letter-spacing: 1px;
+  }
+  .fb-btn-group {
+    display: flex; flex-direction: column; gap: 3px; width: 100%;
+  }
+  .fb-btn {
+    border: 2px solid #333; border-radius: 6px;
+    padding: 6px 4px; font-size: 11px; font-weight: 600;
+    cursor: pointer; transition: all 0.15s;
+    text-align: center; background: #1a1a2e; color: #888;
+  }
+  .fb-btn:hover { border-color: #555; color: #bbb; }
+  .fb-btn.selected-correct {
+    background: #166534; border-color: #22c55e; color: #fff;
+  }
+  .fb-btn.selected-partial {
+    background: #854d0e; border-color: #f59e0b; color: #fff;
+  }
+  .fb-btn.selected-wrong {
+    background: #7f1d1d; border-color: #ef4444; color: #fff;
+  }
+  .fb-btn.selected-higher {
+    background: #7f1d1d; border-color: #ef4444; color: #fff;
+  }
+  .fb-btn.selected-lower {
+    background: #7f1d1d; border-color: #ef4444; color: #fff;
+  }
+
+  .submit-btn {
+    margin-top: 20px; padding: 12px 48px;
+    background: linear-gradient(135deg, #3498db, #2ecc71);
+    border: none; border-radius: 8px;
+    color: #fff; font-size: 16px; font-weight: 600;
+    cursor: pointer; transition: all 0.2s;
+  }
+  .submit-btn:hover { transform: scale(1.05); filter: brightness(1.1); }
+  .submit-btn:disabled {
+    background: #333; cursor: not-allowed; transform: none; filter: none; color: #666;
+  }
+
+  .history {
+    margin-top: 28px; width: 100%; max-width: 700px;
+  }
+  .history-title {
+    font-size: 13px; color: #666; text-transform: uppercase; letter-spacing: 2px;
+    margin-bottom: 8px; text-align: center;
+  }
+  .history-row {
+    display: flex; align-items: center; gap: 8px;
+    padding: 8px 12px; border-radius: 8px;
+    margin-bottom: 4px; background: #1a1a2e;
+  }
+  .history-row img { width: 32px; height: 32px; image-rendering: pixelated; }
+  .history-row .h-name { font-weight: 600; width: 100px; font-size: 14px; }
+  .history-row .h-turn { color: #666; font-size: 12px; width: 18px; }
+  .history-cells { display: flex; gap: 3px; }
+  .history-cell {
+    width: 28px; height: 28px; border-radius: 4px;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 10px; font-weight: 700; color: #fff;
+  }
+  .cell-correct { background: #166534; }
+  .cell-partial { background: #854d0e; }
+  .cell-wrong { background: #7f1d1d; }
+
+  .hab-section {
+    margin-top: 12px; display: flex; flex-direction: column; align-items: center; gap: 6px;
+  }
+  .hab-row {
+    display: flex; align-items: center; gap: 4px;
+  }
+  .hab-slot {
+    width: 32px; height: 32px; border-radius: 6px; border: 2px solid #333;
+    cursor: pointer; transition: all 0.15s; display: flex;
+    align-items: center; justify-content: center; font-size: 14px; font-weight: 700;
+    background: #1a1a2e; color: #888;
+  }
+  .hab-slot:hover { border-color: #555; }
+  .hab-slot.h-correct { background: #166534; border-color: #22c55e; color: #fff; }
+  .hab-slot.h-partial { background: #854d0e; border-color: #f59e0b; color: #fff; }
+  .hab-slot.h-wrong { background: #7f1d1d; border-color: #ef4444; color: #fff; }
+  .hab-add, .hab-remove {
+    width: 28px; height: 28px; border-radius: 50%; border: 1px dashed #555;
+    background: transparent; color: #888; cursor: pointer; font-size: 16px;
+    display: flex; align-items: center; justify-content: center; transition: all 0.15s;
+  }
+  .hab-add:hover, .hab-remove:hover { border-color: #aaa; color: #ddd; }
+
+  .remaining {
+    margin-top: 16px; text-align: center; color: #666; font-size: 13px;
+  }
+  .remaining b { color: #aaa; }
+
+  .victory {
+    margin-top: 32px; text-align: center;
+  }
+  .victory h2 {
+    font-size: 36px;
+    background: linear-gradient(90deg, #f39c12, #2ecc71);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+  }
+  .victory img { width: 120px; height: 120px; image-rendering: pixelated; margin: 12px; }
+  .victory .stats { color: #888; font-size: 16px; margin-top: 8px; }
+  .reset-btn {
+    margin-top: 16px; padding: 10px 32px;
+    background: #1a1a2e; border: 1px solid #444; border-radius: 8px;
+    color: #ddd; font-size: 14px; cursor: pointer;
+  }
+  .reset-btn:hover { border-color: #666; }
+</style>
+</head>
+<body>
+
+<h1>Pokedle Solver</h1>
+<p class="subtitle">Optimal entropy-based guessing for Pokedle Classic (Gen 1)</p>
+
+<div id="app"></div>
+
+<script>
+// --- Data embedded at build time ---
+let ALL_POKEMON = [];
+let candidates = [];
+let turn = 1;
+let history = [];
+let solved = false;
+let snapshots = []; // stack of previous candidate arrays for undo
+let habitatSlots = []; // per-habitat feedback, auto-populated from guess
+
+const CATEGORIES = [
+  { key: "type1", label: "Type 1", type: "type" },
+  { key: "type2", label: "Type 2", type: "type" },
+  { key: "evolution_stage", label: "Evo Stage", type: "exact" },
+  { key: "is_fully_evolved", label: "Fully Evol", type: "exact" },
+  { key: "color", label: "Color", type: "type" },
+  // habitat is handled separately with per-slot feedback
+  { key: "generation", label: "Gen", type: "number" },
+];
+
+// Full list including habitat for history display
+const ALL_CATEGORIES = [
+  { key: "type1", label: "Type 1" },
+  { key: "type2", label: "Type 2" },
+  { key: "evolution_stage", label: "Evo Stage" },
+  { key: "is_fully_evolved", label: "Fully Evol" },
+  { key: "color", label: "Color" },
+  { key: "habitat", label: "Habitat" },
+  { key: "generation", label: "Gen" },
+];
+
+const FEEDBACK_OPTIONS = {
+  type: [
+    { value: "correct", label: "✓", css: "selected-correct", title: "Green — exact match" },
+    { value: "partial", label: "~", css: "selected-partial", title: "Yellow — right type, wrong slot" },
+    { value: "wrong", label: "✗", css: "selected-wrong", title: "Red — no match" },
+  ],
+  number: [
+    { value: "correct", label: "✓", css: "selected-correct", title: "Green — exact match" },
+    { value: "wrong_higher", label: "↑", css: "selected-higher", title: "Up arrow — answer is higher" },
+    { value: "wrong_lower", label: "↓", css: "selected-lower", title: "Down arrow — answer is lower" },
+  ],
+  exact: [
+    { value: "correct", label: "✓", css: "selected-correct", title: "Green — exact match" },
+    { value: "wrong", label: "✗", css: "selected-wrong", title: "Red — no match" },
+  ],
+};
+
+let selectedFeedback = {};
+
+function spriteUrl(id) {
+  return `https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/${id}.png`;
+}
+
+// --- Feedback logic (mirrors solver.py with real Pokedle data) ---
+function multiValueFeedback(guessVals, answerVals) {
+  const answerSet = new Set(answerVals);
+  const perElement = guessVals.map((gv, i) => {
+    if (i < answerVals.length && gv === answerVals[i]) return "correct";
+    if (answerSet.has(gv)) return "partial";
+    return "wrong";
+  });
+  if (perElement.every(s => s === "correct") && guessVals.length === answerVals.length) return "correct";
+  if (perElement.some(s => s === "correct" || s === "partial")) return "partial";
+  return "wrong";
+}
+
+function computeFeedback(guess, answer) {
+  const fb = [];
+
+  // type1, type2
+  const aTypes = new Set([answer.type1, answer.type2]);
+  for (const [gVal, aVal] of [[guess.type1, answer.type1], [guess.type2, answer.type2]]) {
+    if (gVal === aVal) fb.push("correct");
+    else if (gVal !== "None" && aTypes.has(gVal)) fb.push("partial");
+    else fb.push("wrong");
+  }
+
+  // evolution_stage (exact)
+  fb.push(guess.evolution_stage === answer.evolution_stage ? "correct" : "wrong");
+
+  // is_fully_evolved (exact)
+  fb.push(guess.is_fully_evolved === answer.is_fully_evolved ? "correct" : "wrong");
+
+  // color (multi-value with position)
+  fb.push(multiValueFeedback(guess.color, answer.color));
+
+  // habitat (multi-value with position)
+  fb.push(multiValueFeedback(guess.habitat, answer.habitat));
+
+  // generation (number)
+  if (guess.generation === answer.generation) fb.push("correct");
+  else if (guess.generation < answer.generation) fb.push("wrong_higher");
+  else fb.push("wrong_lower");
+
+  return fb;
+}
+
+function feedbackEntropy(guess, cands) {
+  const buckets = {};
+  for (const c of cands) {
+    const fb = computeFeedback(guess, c);
+    const key = fb.join("|");
+    buckets[key] = (buckets[key] || 0) + 1;
+  }
+  const n = cands.length;
+  let h = 0;
+  for (const count of Object.values(buckets)) {
+    const p = count / n;
+    h -= p * Math.log2(p);
+  }
+  return h;
+}
+
+function pickBestGuess(cands) {
+  if (cands.length <= 2) return cands[0];
+
+  const candidateIds = new Set(cands.map(c => c.number));
+  let bestGuess = null;
+  let bestH = -1;
+  let bestIsCandidate = false;
+
+  for (const guess of ALL_POKEMON) {
+    const h = feedbackEntropy(guess, cands);
+    const isCand = candidateIds.has(guess.number);
+    if (h > bestH + 1e-12 || (Math.abs(h - bestH) < 1e-12 && isCand && !bestIsCandidate)) {
+      bestH = h;
+      bestGuess = guess;
+      bestIsCandidate = isCand;
+    }
+  }
+  return bestGuess;
+}
+
+function filterCandidates(guess, feedback, cands, habSlots) {
+  return cands.filter(c => {
+    const fb = computeFeedback(guess, c);
+    // Check non-habitat categories
+    if (!fb.every((v, i) => v === feedback[i])) return false;
+
+    // Check per-habitat constraints
+    if (habSlots && guess.habitat) {
+      const answerHabs = new Set(c.habitat);
+      for (let i = 0; i < habSlots.length; i++) {
+        const habName = guess.habitat[i];
+        if (!habName) continue;
+        const inAnswer = answerHabs.has(habName);
+        // green or yellow = habitat IS in the answer
+        if ((habSlots[i] === "correct" || habSlots[i] === "partial") && !inAnswer) return false;
+        // red = habitat is NOT in the answer
+        if (habSlots[i] === "wrong" && inAnswer) return false;
+      }
+    }
+    return true;
+  });
+}
+
+// --- Rendering ---
+function render() {
+  const app = document.getElementById("app");
+
+  if (solved) {
+    const last = history[history.length - 1];
+    app.innerHTML = `
+      <div class="victory">
+        <h2>Solved!</h2>
+        <img src="${spriteUrl(last.guess.number)}" alt="${last.guess.name}">
+        <div class="stats">
+          <b>${last.guess.name}</b> found in <b>${turn - 1}</b> guess${turn - 1 > 1 ? "es" : ""}
+        </div>
+        <button class="reset-btn" onclick="resetGame()">Play Again</button>
+      </div>
+      ${renderHistory()}
+    `;
+    return;
+  }
+
+  const guess = pickBestGuess(candidates);
+  if (!guess || candidates.length === 0) {
+    app.innerHTML = `
+      <div style="margin-top:40px;text-align:center;">
+        <p style="color:#e74c3c;font-size:18px;">No candidates remaining!</p>
+        <p style="color:#888;margin-top:8px;">This likely means a feedback entry didn't match our data.<br>
+        Try undoing the last guess and double-checking the feedback.</p>
+        <div style="margin-top:16px;display:flex;gap:12px;justify-content:center;">
+          <button class="reset-btn" onclick="undoLastGuess()">Undo Last Guess</button>
+          <button class="reset-btn" onclick="resetGame()">Reset Game</button>
+        </div>
+      </div>
+      ${renderHistory()}`;
+    return;
+  }
+
+  // Store current guess globally so submit can use it
+  window._currentGuess = guess;
+
+  // Auto-populate habitat slots from guess data
+  if (habitatSlots.length !== guess.habitat.length) {
+    habitatSlots = guess.habitat.map(() => "wrong");
+  }
+
+  const allCorrect = Object.keys(selectedFeedback).length === CATEGORIES.length;
+
+  app.innerHTML = `
+    <div class="guess-section">
+      <div class="guess-label">Turn ${turn} — Guess this Pokémon</div>
+      <div class="guess-pokemon">
+        <img src="${spriteUrl(guess.number)}" alt="${guess.name}">
+        <div>
+          <div class="name">${guess.name}</div>
+          <div class="number">#${guess.number}</div>
+        </div>
+      </div>
+      <div class="guess-attrs">
+        <div class="attr"><b>${guess.type1}</b> / <b>${guess.type2}</b></div>
+        <div class="attr">Evo <b>${guess.evolution_stage}</b></div>
+        <div class="attr">Evolved: <b>${guess.is_fully_evolved ? "Yes" : "No"}</b></div>
+        <div class="attr"><b>${guess.color.join(", ")}</b></div>
+        <div class="attr"><b>${guess.habitat.join(", ")}</b></div>
+        <div class="attr">Gen <b>${guess.generation}</b></div>
+      </div>
+    </div>
+
+    <div class="feedback-section">
+      <p style="color:#888;font-size:13px;">Enter the feedback from Pokedle:</p>
+      <div class="feedback-row">
+        ${CATEGORIES.map((cat, i) => renderFeedbackCol(cat, i)).join("")}
+      </div>
+      <div class="hab-section">
+        <div class="label" style="font-size:10px;color:#888;text-transform:uppercase;letter-spacing:1px;">Habitats (click to cycle: red → green → yellow)</div>
+        <div class="hab-row">
+          ${habitatSlots.map((state, i) => {
+            const cls = state === "correct" ? "h-correct" : state === "partial" ? "h-partial" : "h-wrong";
+            const sym = state === "correct" ? "✓" : state === "partial" ? "~" : "✗";
+            const habName = guess.habitat[i] || "?";
+            return `<button class="hab-slot ${cls}" onclick="cycleHabitat(${i})" title="${habName}: ${state}" style="width:auto;padding:4px 10px;font-size:11px;gap:4px;display:flex;align-items:center;">
+              <span>${sym}</span><span style="font-weight:400;text-transform:capitalize;">${habName}</span>
+            </button>`;
+          }).join("")}
+        </div>
+      </div>
+      <div style="display:flex;gap:12px;align-items:center;margin-top:20px;">
+        ${turn > 1 ? '<button class="reset-btn" onclick="undoLastGuess()">Undo</button>' : ''}
+        <button class="submit-btn" ${allCorrect ? "" : "disabled"} onclick="submitFeedback()">
+          Submit Feedback
+        </button>
+      </div>
+    </div>
+
+    <div class="remaining">
+      <b>${candidates.length}</b> candidates remaining
+      ${candidates.length <= 20
+        ? `<div style="margin-top:8px;display:flex;flex-wrap:wrap;gap:6px;justify-content:center;">
+            ${candidates.map(c => `<span style="background:#1a1a2e;border:1px solid #333;border-radius:4px;padding:2px 8px;font-size:12px;">
+              ${c.name}</span>`).join("")}
+           </div>`
+        : ""}
+    </div>
+
+    ${renderHistory()}
+  `;
+}
+
+function renderFeedbackCol(cat, index) {
+  const options = FEEDBACK_OPTIONS[cat.type];
+  const selected = selectedFeedback[cat.key];
+  return `
+    <div class="fb-col">
+      <div class="label">${cat.label}</div>
+      <div class="fb-btn-group">
+        ${options.map(opt => `
+          <button class="fb-btn ${selected === opt.value ? opt.css : ""}"
+                  title="${opt.title}"
+                  onclick="selectFeedback('${cat.key}', '${opt.value}')">
+            ${opt.label} ${opt.label === "✓" ? "Green" : opt.label === "~" ? "Yellow" : opt.label === "✗" ? "Red" : opt.label === "↑" ? "Higher" : "Lower"}
+          </button>
+        `).join("")}
+      </div>
+    </div>
+  `;
+}
+
+function renderHistory() {
+  if (history.length === 0) return "";
+  return `
+    <div class="history">
+      <div class="history-title">Guess History</div>
+      ${history.map(h => `
+        <div class="history-row">
+          <div class="h-turn">${h.turn}</div>
+          <img src="${spriteUrl(h.guess.number)}" alt="${h.guess.name}">
+          <div class="h-name">${h.guess.name}</div>
+          <div class="history-cells">
+            ${h.feedback.map((fb, i) => {
+              const cat = ALL_CATEGORIES[i];
+              const cls = fb === "correct" ? "cell-correct" : fb === "partial" ? "cell-partial" : "cell-wrong";
+              const sym = fb === "correct" ? "✓" : fb === "partial" ? "~" : fb === "wrong" ? "✗" : fb === "wrong_higher" ? "↑" : "↓";
+              if (cat.key === "habitat" && h.habSlots) {
+                const habNames = h.guess.habitat || [];
+                return h.habSlots.map((hs, j) => {
+                  const hcls = hs === "correct" ? "cell-correct" : hs === "partial" ? "cell-partial" : "cell-wrong";
+                  const hsym = hs === "correct" ? "✓" : hs === "partial" ? "~" : "✗";
+                  const name = habNames[j] || "?";
+                  return `<div class="history-cell ${hcls}" title="${name}: ${hs}" style="width:auto;min-width:20px;height:28px;font-size:8px;padding:0 3px;">${hsym}</div>`;
+                }).join("");
+              }
+              return `<div class="history-cell ${cls}" title="${cat.label}: ${fb}">${sym}</div>`;
+            }).join("")}
+          </div>
+        </div>
+      `).join("")}
+    </div>
+  `;
+}
+
+function selectFeedback(key, value) {
+  if (selectedFeedback[key] === value) {
+    delete selectedFeedback[key];
+  } else {
+    selectedFeedback[key] = value;
+  }
+  render();
+}
+
+function cycleHabitat(i) {
+  // Individual habitat cells: green=same position, yellow=exists but wrong position, red=not in answer
+  const order = ["wrong", "correct", "partial"];
+  const cur = order.indexOf(habitatSlots[i]);
+  habitatSlots[i] = order[(cur + 1) % order.length];
+  render();
+}
+
+function addHabitat() {
+  habitatSlots.push("wrong");
+  render();
+}
+
+function removeHabitat() {
+  if (habitatSlots.length > 1) {
+    habitatSlots.pop();
+    render();
+  }
+}
+
+function habitatSummary() {
+  // From Pokedle JS: all CorrectGuess -> green, some CorrectGuess -> orange, else red
+  // "correct" = right habitat at right position
+  // "partial" = habitat exists in answer but wrong position (still counts as "in the answer")
+  // For filtering: correct and partial both mean the habitat IS in the answer
+  if (habitatSlots.every(s => s === "correct")) return "correct";
+  if (habitatSlots.some(s => s === "correct")) return "partial";
+  // Partial slots mean the habitat exists in answer - still a partial overall match
+  if (habitatSlots.some(s => s === "partial")) return "partial";
+  return "wrong";
+}
+
+function submitFeedback() {
+  const guess = window._currentGuess;
+  // Build full 7-category feedback: insert habitat summary at index 5
+  const catFeedback = CATEGORIES.map(cat => selectedFeedback[cat.key]);
+  const feedback = [...catFeedback.slice(0, 5), habitatSummary(), catFeedback[5]];
+
+  // Check if all correct
+  if (feedback.every(f => f === "correct") && habitatSlots.every(s => s === "correct")) {
+    history.push({ turn, guess, feedback, habSlots: [...habitatSlots] });
+    solved = true;
+    selectedFeedback = {};
+    habitatSlots = [];
+    render();
+    return;
+  }
+
+  // Filter using both category feedback and per-habitat info
+  const newCandidates = filterCandidates(guess, feedback, candidates, habitatSlots);
+
+  snapshots.push([...candidates]);
+  history.push({ turn, guess, feedback, habSlots: [...habitatSlots] });
+  candidates = newCandidates;
+  turn++;
+  selectedFeedback = {};
+  habitatSlots = [];
+  render();
+}
+
+function undoLastGuess() {
+  if (snapshots.length > 0) {
+    candidates = snapshots.pop();
+    history.pop();
+    turn--;
+    solved = false;
+    selectedFeedback = {};
+    habitatSlots = [];
+    render();
+  }
+}
+
+function resetGame() {
+  candidates = [...ALL_POKEMON];
+  turn = 1;
+  history = [];
+  solved = false;
+  selectedFeedback = {};
+  snapshots = [];
+  habitatSlots = ["wrong"];
+  render();
+}
+
+// --- Init ---
+fetch("data/gen1_pokemon.json")
+  .then(r => r.json())
+  .then(data => {
+    ALL_POKEMON = data;
+    candidates = [...data];
+    render();
+  })
+  .catch(err => {
+    document.getElementById("app").innerHTML =
+      `<p style="margin-top:40px;color:#e74c3c;">Failed to load Pokemon data. Run from project root with a local server:<br>
+       <code style="color:#aaa;">python -m http.server 8000</code></p>`;
+  });
+</script>
+</body>
+</html>

@@ -1,0 +1,1033 @@
+{
+  "guess": "ekans",
+  "number": 23,
+  "depth": 1,
+  "children": {
+    "partial|wrong|correct|correct|wrong|partial|correct": {
+      "guess": "bulbasaur",
+      "number": 1,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "bulbasaur",
+          "number": 1,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|partial|partial|correct": {
+          "guess": "oddish",
+          "number": 43,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|wrong|correct|wrong|partial|correct": {
+      "guess": "ivysaur",
+      "number": 2,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "ivysaur",
+          "number": 2,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|wrong|partial|correct": {
+          "guess": "gloom",
+          "number": 44,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|wrong|wrong|wrong|partial|correct": {
+      "guess": "venusaur",
+      "number": 3,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "venusaur",
+          "number": 3,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|wrong|partial|correct": {
+          "guess": "vileplume",
+          "number": 45,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|correct|correct|wrong|wrong|correct": {
+      "guess": "poliwrath",
+      "number": 62,
+      "depth": 2,
+      "children": {
+        "wrong|wrong|wrong|wrong|wrong|wrong|correct": {
+          "guess": "cubone",
+          "number": 104,
+          "depth": 3,
+          "children": {
+            "wrong|correct|correct|correct|wrong|partial|correct": {
+              "guess": "charmander",
+              "number": 4,
+              "depth": 4,
+              "children": {
+                "correct|correct|correct|correct|correct|correct|correct": {
+                  "guess": "charmander",
+                  "number": 4,
+                  "depth": 4
+                },
+                "wrong|correct|correct|correct|wrong|partial|correct": {
+                  "guess": "clefairy",
+                  "number": 35,
+                  "depth": 5
+                }
+              }
+            },
+            "correct|correct|correct|correct|correct|partial|correct": {
+              "guess": "diglett",
+              "number": 50,
+              "depth": 4
+            },
+            "wrong|correct|correct|correct|wrong|wrong|correct": {
+              "guess": "magnemite",
+              "number": 81,
+              "depth": 4
+            },
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "cubone",
+              "number": 104,
+              "depth": 3
+            },
+            "wrong|correct|correct|correct|correct|wrong|correct": {
+              "guess": "eevee",
+              "number": 133,
+              "depth": 4
+            }
+          }
+        },
+        "correct|wrong|wrong|wrong|partial|partial|correct": {
+          "guess": "squirtle",
+          "number": 7,
+          "depth": 3,
+          "children": {
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "squirtle",
+              "number": 7,
+              "depth": 3
+            },
+            "correct|correct|correct|correct|wrong|partial|correct": {
+              "guess": "goldeen",
+              "number": 118,
+              "depth": 4
+            }
+          }
+        },
+        "correct|wrong|wrong|wrong|correct|correct|correct": {
+          "guess": "poliwag",
+          "number": 60,
+          "depth": 3
+        },
+        "wrong|partial|wrong|wrong|wrong|wrong|correct": {
+          "guess": "machop",
+          "number": 66,
+          "depth": 3
+        },
+        "correct|wrong|wrong|wrong|partial|wrong|correct": {
+          "guess": "seel",
+          "number": 86,
+          "depth": 3,
+          "children": {
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "seel",
+              "number": 86,
+              "depth": 3
+            },
+            "correct|correct|correct|correct|wrong|wrong|correct": {
+              "guess": "horsea",
+              "number": 116,
+              "depth": 4
+            }
+          }
+        },
+        "correct|wrong|wrong|wrong|wrong|wrong|correct": {
+          "guess": "krabby",
+          "number": 98,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|wrong|partial|wrong|correct": {
+          "guess": "voltorb",
+          "number": 100,
+          "depth": 3,
+          "children": {
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "voltorb",
+              "number": 100,
+              "depth": 3
+            },
+            "wrong|correct|correct|correct|wrong|wrong|correct": {
+              "guess": "porygon",
+              "number": 137,
+              "depth": 4
+            }
+          }
+        },
+        "correct|wrong|wrong|wrong|wrong|partial|correct": {
+          "guess": "magikarp",
+          "number": 129,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|wrong|correct|partial|correct": {
+          "guess": "dratini",
+          "number": 147,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|correct|wrong|wrong|correct": {
+      "guess": "poliwrath",
+      "number": 62,
+      "depth": 2,
+      "children": {
+        "wrong|wrong|wrong|wrong|wrong|wrong|correct": {
+          "guess": "charmeleon",
+          "number": 5,
+          "depth": 3
+        },
+        "correct|wrong|wrong|wrong|partial|partial|correct": {
+          "guess": "wartortle",
+          "number": 8,
+          "depth": 3
+        },
+        "correct|wrong|wrong|wrong|correct|correct|correct": {
+          "guess": "poliwhirl",
+          "number": 61,
+          "depth": 3
+        },
+        "wrong|partial|wrong|wrong|wrong|wrong|correct": {
+          "guess": "machoke",
+          "number": 67,
+          "depth": 3
+        },
+        "correct|wrong|wrong|wrong|partial|wrong|correct": {
+          "guess": "seadra",
+          "number": 117,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|wrong|correct|partial|correct": {
+          "guess": "dragonair",
+          "number": 148,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|wrong|wrong|wrong|wrong|wrong|correct": {
+      "guess": "slowbro",
+      "number": 80,
+      "depth": 2,
+      "children": {
+        "wrong|wrong|wrong|correct|wrong|wrong|correct": {
+          "guess": "charizard",
+          "number": 6,
+          "depth": 3
+        },
+        "wrong|wrong|correct|correct|wrong|wrong|correct": {
+          "guess": "fearow",
+          "number": 22,
+          "depth": 3,
+          "children": {
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "fearow",
+              "number": 22,
+              "depth": 3
+            },
+            "wrong|wrong|correct|correct|wrong|wrong|correct": {
+              "guess": "parasect",
+              "number": 47,
+              "depth": 4
+            }
+          }
+        },
+        "correct|wrong|wrong|correct|wrong|partial|correct": {
+          "guess": "poliwrath",
+          "number": 62,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|correct|partial|wrong|correct": {
+          "guess": "golem",
+          "number": 76,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "slowbro",
+          "number": 80,
+          "depth": 2
+        },
+        "correct|wrong|correct|correct|wrong|wrong|correct": {
+          "guess": "dewgong",
+          "number": 87,
+          "depth": 3
+        },
+        "wrong|partial|correct|correct|partial|wrong|correct": {
+          "guess": "mr. mime",
+          "number": 122,
+          "depth": 3
+        },
+        "correct|wrong|correct|correct|wrong|partial|correct": {
+          "guess": "gyarados",
+          "number": 130,
+          "depth": 3
+        },
+        "partial|wrong|correct|correct|wrong|wrong|correct": {
+          "guess": "omastar",
+          "number": 139,
+          "depth": 3
+        },
+        "partial|wrong|correct|correct|wrong|partial|correct": {
+          "guess": "kabutops",
+          "number": 141,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|correct|wrong|partial|correct": {
+          "guess": "dragonite",
+          "number": 149,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|wrong|wrong|wrong|correct": {
+      "guess": "blastoise",
+      "number": 9,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "blastoise",
+          "number": 9,
+          "depth": 2
+        },
+        "wrong|correct|wrong|correct|wrong|wrong|correct": {
+          "guess": "magneton",
+          "number": 82,
+          "depth": 3,
+          "children": {
+            "wrong|correct|correct|correct|wrong|wrong|correct": {
+              "guess": "clefable",
+              "number": 36,
+              "depth": 4
+            },
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "magneton",
+              "number": 82,
+              "depth": 3
+            },
+            "correct|correct|correct|correct|wrong|correct|correct": {
+              "guess": "electrode",
+              "number": 101,
+              "depth": 4
+            }
+          }
+        },
+        "wrong|correct|wrong|correct|partial|wrong|correct": {
+          "guess": "dugtrio",
+          "number": 51,
+          "depth": 3,
+          "children": {
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "dugtrio",
+              "number": 51,
+              "depth": 3
+            },
+            "correct|correct|correct|correct|correct|partial|correct": {
+              "guess": "marowak",
+              "number": 105,
+              "depth": 4
+            },
+            "wrong|correct|correct|correct|wrong|wrong|correct": {
+              "guess": "snorlax",
+              "number": 143,
+              "depth": 4
+            }
+          }
+        },
+        "correct|correct|wrong|correct|partial|correct|correct": {
+          "guess": "golduck",
+          "number": 55,
+          "depth": 3,
+          "indistinguishable": [
+            "golduck",
+            "vaporeon"
+          ]
+        },
+        "wrong|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "machamp",
+          "number": 68,
+          "depth": 3
+        },
+        "correct|correct|wrong|correct|partial|wrong|correct": {
+          "guess": "kingler",
+          "number": 99,
+          "depth": 3
+        },
+        "correct|correct|wrong|correct|wrong|partial|correct": {
+          "guess": "seaking",
+          "number": 119,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|correct|correct|partial|partial|correct": {
+      "guess": "growlithe",
+      "number": 58,
+      "depth": 2,
+      "children": {
+        "wrong|correct|correct|correct|partial|wrong|correct": {
+          "guess": "caterpie",
+          "number": 10,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "rattata",
+          "number": 19,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|partial|partial|correct": {
+          "guess": "sandshrew",
+          "number": 27,
+          "depth": 3,
+          "children": {
+            "correct|correct|correct|correct|correct|correct|correct": {
+              "guess": "sandshrew",
+              "number": 27,
+              "depth": 3
+            },
+            "wrong|correct|correct|correct|partial|partial|correct": {
+              "guess": "drowzee",
+              "number": 96,
+              "depth": 4
+            }
+          }
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "growlithe",
+          "number": 58,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|partial|partial|correct": {
+          "guess": "ponyta",
+          "number": 77,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|correct|wrong|partial|correct": {
+      "guess": "metapod",
+      "number": 11,
+      "depth": 2
+    },
+    "wrong|wrong|wrong|wrong|partial|partial|correct": {
+      "guess": "butterfree",
+      "number": 12,
+      "depth": 2
+    },
+    "partial|wrong|correct|correct|wrong|wrong|correct": {
+      "guess": "weedle",
+      "number": 13,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "weedle",
+          "number": 13,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "tentacool",
+          "number": 72,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|wrong|correct|partial|wrong|correct": {
+      "guess": "kakuna",
+      "number": 14,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "kakuna",
+          "number": 14,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "haunter",
+          "number": 93,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|wrong|wrong|partial|wrong|correct": {
+      "guess": "beedrill",
+      "number": 15,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "beedrill",
+          "number": 15,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "gengar",
+          "number": 94,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|wrong|correct|correct|wrong|partial|correct": {
+      "guess": "doduo",
+      "number": 84,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|partial|correct": {
+          "guess": "pidgey",
+          "number": 16,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "doduo",
+          "number": 84,
+          "depth": 2
+        },
+        "wrong|wrong|correct|correct|wrong|wrong|correct": {
+          "guess": "exeggcute",
+          "number": 102,
+          "depth": 3
+        },
+        "wrong|wrong|correct|correct|wrong|partial|correct": {
+          "guess": "rhyhorn",
+          "number": 111,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "scyther",
+          "number": 123,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|wrong|wrong|correct|wrong|partial|correct": {
+      "guess": "pidgeotto",
+      "number": 17,
+      "depth": 2
+    },
+    "wrong|wrong|wrong|wrong|wrong|partial|correct": {
+      "guess": "pidgeot",
+      "number": 18,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "pidgeot",
+          "number": 18,
+          "depth": 2
+        },
+        "correct|correct|wrong|correct|correct|partial|correct": {
+          "guess": "dodrio",
+          "number": 85,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|correct|partial|partial|correct": {
+          "guess": "exeggutor",
+          "number": 103,
+          "depth": 3
+        },
+        "wrong|wrong|wrong|correct|wrong|partial|correct": {
+          "guess": "rhydon",
+          "number": 112,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|wrong|wrong|partial|correct": {
+      "guess": "raticate",
+      "number": 20,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "raticate",
+          "number": 20,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|wrong|partial|correct": {
+          "guess": "wigglytuff",
+          "number": 40,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|correct|wrong|correct": {
+          "guess": "primeape",
+          "number": 57,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|partial|partial|correct": {
+          "guess": "arcanine",
+          "number": 59,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|wrong|correct|correct|wrong|wrong|correct": {
+      "guess": "omanyte",
+      "number": 138,
+      "depth": 2,
+      "children": {
+        "wrong|wrong|correct|correct|partial|wrong|correct": {
+          "guess": "spearow",
+          "number": 21,
+          "depth": 3
+        },
+        "wrong|wrong|correct|correct|wrong|wrong|correct": {
+          "guess": "paras",
+          "number": 46,
+          "depth": 3
+        },
+        "correct|wrong|correct|correct|wrong|wrong|correct": {
+          "guess": "geodude",
+          "number": 74,
+          "depth": 3
+        },
+        "wrong|partial|correct|correct|wrong|wrong|correct": {
+          "guess": "slowpoke",
+          "number": 79,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "omanyte",
+          "number": 138,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|partial|partial|correct": {
+          "guess": "kabuto",
+          "number": 140,
+          "depth": 3
+        }
+      }
+    },
+    "correct|correct|correct|correct|correct|correct|correct": {
+      "guess": "ekans",
+      "number": 23,
+      "depth": 1
+    },
+    "correct|correct|wrong|wrong|partial|correct|correct": {
+      "guess": "arbok",
+      "number": 24,
+      "depth": 2
+    },
+    "wrong|correct|correct|correct|partial|wrong|correct": {
+      "guess": "meowth",
+      "number": 52,
+      "depth": 2,
+      "children": {
+        "wrong|correct|correct|correct|correct|partial|correct": {
+          "guess": "pikachu",
+          "number": 25,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "meowth",
+          "number": 52,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|correct|wrong|correct": {
+          "guess": "psyduck",
+          "number": 54,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|partial|partial|correct": {
+          "guess": "abra",
+          "number": 63,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "shellder",
+          "number": 90,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|partial|wrong|correct": {
+          "guess": "staryu",
+          "number": 120,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|wrong|partial|wrong|correct": {
+      "guess": "raichu",
+      "number": 26,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "raichu",
+          "number": 26,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|partial|wrong|correct": {
+          "guess": "sandslash",
+          "number": 28,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|partial|partial|correct": {
+          "guess": "persian",
+          "number": 53,
+          "depth": 3
+        },
+        "wrong|correct|wrong|correct|partial|wrong|correct": {
+          "guess": "alakazam",
+          "number": 65,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|partial|partial|correct": {
+          "guess": "jolteon",
+          "number": 135,
+          "depth": 3
+        }
+      }
+    },
+    "correct|correct|correct|correct|wrong|partial|correct": {
+      "guess": "nidoran\u2640",
+      "number": 29,
+      "depth": 2
+    },
+    "correct|correct|wrong|correct|wrong|partial|correct": {
+      "guess": "nidorina",
+      "number": 30,
+      "depth": 2
+    },
+    "correct|wrong|wrong|wrong|wrong|partial|correct": {
+      "guess": "nidoqueen",
+      "number": 31,
+      "depth": 2
+    },
+    "correct|correct|correct|correct|partial|partial|correct": {
+      "guess": "nidoran\u2642",
+      "number": 32,
+      "depth": 2
+    },
+    "correct|correct|wrong|correct|partial|partial|correct": {
+      "guess": "nidorino",
+      "number": 33,
+      "depth": 2
+    },
+    "correct|wrong|wrong|wrong|partial|partial|correct": {
+      "guess": "nidoking",
+      "number": 34,
+      "depth": 2
+    },
+    "wrong|correct|correct|correct|wrong|partial|correct": {
+      "guess": "vulpix",
+      "number": 37,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "vulpix",
+          "number": 37,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "jigglypuff",
+          "number": 39,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "mankey",
+          "number": 56,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|wrong|partial|partial|correct": {
+      "guess": "rapidash",
+      "number": 78,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|partial|partial|correct": {
+          "guess": "ninetales",
+          "number": 38,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "rapidash",
+          "number": 78,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|partial|partial|correct": {
+          "guess": "hypno",
+          "number": 97,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|partial|correct|correct": {
+          "guess": "flareon",
+          "number": 136,
+          "depth": 3
+        }
+      }
+    },
+    "correct|wrong|correct|correct|partial|wrong|correct": {
+      "guess": "zubat",
+      "number": 41,
+      "depth": 2
+    },
+    "correct|wrong|wrong|wrong|partial|wrong|correct": {
+      "guess": "golbat",
+      "number": 42,
+      "depth": 2
+    },
+    "partial|wrong|correct|correct|partial|partial|correct": {
+      "guess": "venonat",
+      "number": 48,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "venonat",
+          "number": 48,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "bellsprout",
+          "number": 69,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|wrong|wrong|partial|partial|correct": {
+      "guess": "venomoth",
+      "number": 49,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "venomoth",
+          "number": 49,
+          "depth": 2
+        },
+        "wrong|correct|wrong|correct|wrong|partial|correct": {
+          "guess": "victreebel",
+          "number": 71,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|correct|partial|wrong|correct": {
+      "guess": "kadabra",
+      "number": 64,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "kadabra",
+          "number": 64,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|partial|wrong|correct": {
+          "guess": "magmar",
+          "number": 126,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|wrong|correct|partial|partial|correct": {
+      "guess": "weepinbell",
+      "number": 70,
+      "depth": 2
+    },
+    "partial|wrong|wrong|wrong|wrong|wrong|correct": {
+      "guess": "tentacruel",
+      "number": 73,
+      "depth": 2
+    },
+    "wrong|wrong|wrong|correct|wrong|wrong|correct": {
+      "guess": "graveler",
+      "number": 75,
+      "depth": 2
+    },
+    "wrong|wrong|correct|wrong|wrong|partial|correct": {
+      "guess": "farfetch\u2019d",
+      "number": 83,
+      "depth": 2
+    },
+    "correct|correct|correct|correct|partial|wrong|correct": {
+      "guess": "grimer",
+      "number": 88,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "grimer",
+          "number": 88,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|correct|partial|correct": {
+          "guess": "koffing",
+          "number": 109,
+          "depth": 3
+        }
+      }
+    },
+    "correct|correct|wrong|wrong|partial|wrong|correct": {
+      "guess": "muk",
+      "number": 89,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "muk",
+          "number": 89,
+          "depth": 2
+        },
+        "correct|correct|correct|correct|correct|partial|correct": {
+          "guess": "weezing",
+          "number": 110,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|wrong|wrong|wrong|partial|wrong|correct": {
+      "guess": "cloyster",
+      "number": 91,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "cloyster",
+          "number": 91,
+          "depth": 2
+        },
+        "correct|wrong|correct|correct|partial|partial|correct": {
+          "guess": "starmie",
+          "number": 121,
+          "depth": 3
+        },
+        "wrong|partial|correct|correct|partial|wrong|correct": {
+          "guess": "jynx",
+          "number": 124,
+          "depth": 3
+        }
+      }
+    },
+    "partial|wrong|correct|correct|partial|wrong|correct": {
+      "guess": "gastly",
+      "number": 92,
+      "depth": 2
+    },
+    "wrong|wrong|correct|wrong|wrong|wrong|correct": {
+      "guess": "articuno",
+      "number": 144,
+      "depth": 2,
+      "children": {
+        "wrong|wrong|correct|correct|wrong|partial|correct": {
+          "guess": "onix",
+          "number": 95,
+          "depth": 3
+        },
+        "partial|wrong|correct|correct|correct|wrong|correct": {
+          "guess": "lapras",
+          "number": 131,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "articuno",
+          "number": 144,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "moltres",
+          "number": 146,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|correct|wrong|wrong|wrong|correct": {
+      "guess": "hitmonlee",
+      "number": 106,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "hitmonlee",
+          "number": 106,
+          "depth": 2,
+          "indistinguishable": [
+            "hitmonlee",
+            "hitmonchan"
+          ]
+        },
+        "wrong|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "lickitung",
+          "number": 108,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|correct|wrong|correct": {
+          "guess": "pinsir",
+          "number": 127,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|correct|wrong|wrong|partial|correct": {
+      "guess": "chansey",
+      "number": 113,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "chansey",
+          "number": 113,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "tangela",
+          "number": 114,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|wrong|wrong|correct": {
+          "guess": "kangaskhan",
+          "number": 115,
+          "depth": 3
+        },
+        "correct|correct|correct|correct|wrong|partial|correct": {
+          "guess": "tauros",
+          "number": 128,
+          "depth": 3
+        },
+        "wrong|correct|correct|correct|correct|partial|correct": {
+          "guess": "mew",
+          "number": 151,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|correct|wrong|correct|partial|partial|correct": {
+      "guess": "electabuzz",
+      "number": 125,
+      "depth": 2
+    },
+    "wrong|correct|correct|wrong|partial|wrong|correct": {
+      "guess": "ditto",
+      "number": 132,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "ditto",
+          "number": 132,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|correct|wrong|correct": {
+          "guess": "mewtwo",
+          "number": 150,
+          "depth": 3
+        }
+      }
+    },
+    "wrong|wrong|correct|wrong|partial|wrong|correct": {
+      "guess": "aerodactyl",
+      "number": 142,
+      "depth": 2,
+      "children": {
+        "correct|correct|correct|correct|correct|correct|correct": {
+          "guess": "aerodactyl",
+          "number": 142,
+          "depth": 2
+        },
+        "wrong|correct|correct|correct|wrong|partial|correct": {
+          "guess": "zapdos",
+          "number": 145,
+          "depth": 3
+        }
+      }
+    }
+  }
+}
